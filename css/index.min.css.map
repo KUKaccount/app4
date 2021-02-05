@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,AAAA,CACF,SAAS,CAAC,IAAI,CACd,WAAW,CAAC,KAAK,CACjB,KAAK,CAAC,GAAG,CACT,KAAK,CAAC,KAAK,CACX,MAAM,CAAC,IAAI,CAEd",
+    "sources": [
+        "../app/assets/stylesheets/index.scss"
+    ],
+    "names": [],
+    "file": "index.min.css"
+}

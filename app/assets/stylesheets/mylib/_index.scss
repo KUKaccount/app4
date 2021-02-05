@@ -1,0 +1,31 @@
+//セクション
+@import "sections/component";
+@import "sections/projects";
+//テキスト HTML
+@import 'text/html';
+//リセットCSS
+@import 'reset.scss';
+//ミクスィング
+@import 'variables.scss';
+@import 'mixins.scss';
+//スカイフォ＾ールディング
+@import 'scaffolding.scss';
+//タイプ カラー フォーム テーブル パターン
+@import 'type.scss';
+@import 'colors.scss';
+@import 'forms.scss';
+@import 'tables.scss';
+@import 'patterns.scss';
+// 拡張子が .css である
+@import "colors.css";
+// メディアクエリが付いている
+@import "colors" screen;
+// URLで指定されている
+@import "http://example.com/colors";
+// url() 関数で指定されている
+@import url(colors);
+@import "index.html.erb";
+.hello{
+    font-size:10px;
+    color:red;
+}

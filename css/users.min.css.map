@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAC,CACJ,KAAK,CAAE,KAAK,CACZ,IAAI,CAAE,IAAI,CAOX,AATH,AAGI,OAHG,CAGH,EAAE,CAAC,EAAE,AAAC,CACJ,KAAK,CAAE,GAAG,CAIX,AARL,AAKM,OALC,CAGH,EAAE,CAAC,EAAE,AAEF,MAAM,AAAC,CACN,MAAM,CAAE,OAAO,CAChB",
+    "sources": [
+        "../app/assets/stylesheets/users.scss"
+    ],
+    "names": [],
+    "file": "users.min.css"
+}

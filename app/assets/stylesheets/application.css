@@ -1,0 +1,88 @@
+/*
+*= require_true.
+*= require_self
+*/
+/*
+layouts
+*/
+.ul{
+    display:none
+}
+.a,li{
+    font-weight:bold;
+    text-decoration:none;
+}
+a,li:link{
+    color:hsl(240, 100%, 50%);
+}
+a,li:visited{
+    color:rgba(40, 139, 0, 0.596);
+}
+a,li:hover{
+    color:rgb(111, 156, 240);
+}
+a,li:active{
+    color:hsl(105, 100%, 40%);
+}
+
+.colors{
+    text-align:left;
+    height:30%;
+    widows:30%;
+    font-size:100%;
+    background-color:rgba(252, 0, 0, 0.534);
+    color:rgba(0, 0, 0, 0.808);
+}
+.background{
+    background-color: rgba(95, 232, 253, 0.493);
+    text-align:center;
+    padding:auto;
+    height:100%;
+    width:100%;
+}
+
+.header{
+    display:flex;
+    flex-wrap:center;
+}
+.Black{
+    background-color: rgba(10,30,30,0.1);
+}
+.profile{
+    width:960;
+    margin:0,auto;
+}
+.profile_detail{
+    width:100px;
+    height:100px;
+    font-size:30px;
+}
+.label{
+    width:100px;
+    height:100px;
+    font-size:30px;
+}
+.value{
+    width:100px;
+    height:100px;
+    font-size:30px;
+}
+/*
+users/
+index.html.erb
+*/
+.users-heading{
+    color:rgba(170, 233, 191, 0.37);
+    font-size:30px;
+    border-radius:solid;
+    border-color:skyblue;
+    border-bottom:30px;
+}
+.users_footer{
+    color:rgb(22, 194, 157);
+    font-size:30px;
+}
+.form-heading{
+    color:rgb(300,33,39);
+    font-size:small;
+}

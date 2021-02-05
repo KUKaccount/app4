@@ -1,0 +1,23 @@
+<p>
+<% if @article.image.attached? %>
+<%= image_tag @article.image %>
+<% end %>
+</p>
+<p>
+  <strong>タイトル:</strong>
+  <%= @article.title %>
+</p>
+
+<p>
+  <strong>テキスト:</strong>
+  <%= @article.text %>
+</p>
+
+<h2>コメント一覧</h2>
+<%= render @article.comments %>
+
+<h2>コメントを送る:</h2>
+<%= render "comments/form" %>
+
+<%= link_to '編集する', edit_article_path(@article) %> |
+<%= link_to '新規登録へ', articles_path %>

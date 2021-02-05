@@ -1,0 +1,13 @@
+<%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    <p>
+      <%= form.label :タイトル %><br>
+      <%= form.text_field :タイトル %>
+    </p>
+    <p>
+      <%= form.label :コメント %><br>
+      <%= form.text_area :コメント %>
+    </p>
+    <p>
+      <%= form.submit %>
+    </p>
+  <% end %>

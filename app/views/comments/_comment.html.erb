@@ -1,0 +1,15 @@
+<p>
+  <strong>タイトル:</strong>
+  <%= comment.commenter %>
+</p>
+
+<p>
+  <strong>コメント:</strong>
+  <%= comment.body %>
+</p>
+
+<p>
+  <%= link_to 'コメントを削除', [comment.article, comment],
+              method: :delete,
+              data: { confirm: '消去しますか？' } %>
+</p>

@@ -1,0 +1,2 @@
+module RubyzipHelper
+end
