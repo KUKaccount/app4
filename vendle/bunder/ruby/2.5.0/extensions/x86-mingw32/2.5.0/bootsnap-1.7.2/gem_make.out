@@ -1,0 +1,16 @@
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
+C:/Users/Ruby25/bin/ruby.exe -r ./siteconf20210210-3580-1imiypt.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
+make "DESTDIR="
+generating bootsnap-i386-mingw32.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210210-3580-10wetrv/bootsnap

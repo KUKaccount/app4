@@ -1,0 +1,14 @@
+current directory: C:/Users/wsc17/app4/vendle/bundler/ruby/2.5.0/gems/nio4r-2.5.5/ext/nio4r
+C:/Users/Ruby25/bin/ruby.exe -r ./siteconf20210210-5240-16tozi2.rb extconf.rb
+
+current directory: C:/Users/wsc17/app4/vendle/bundler/ruby/2.5.0/gems/nio4r-2.5.5/ext/nio4r
+make "DESTDIR=" clean
+make: *** ターゲット 'clean' を make するルールがありません.  中止.
+
+current directory: C:/Users/wsc17/app4/vendle/bundler/ruby/2.5.0/gems/nio4r-2.5.5/ext/nio4r
+make "DESTDIR="
+make: 'all' に対して行うべき事はありません.
+
+current directory: C:/Users/wsc17/app4/vendle/bundler/ruby/2.5.0/gems/nio4r-2.5.5/ext/nio4r
+make "DESTDIR=" install
+make: 'install' に対して行うべき事はありません.

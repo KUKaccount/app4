@@ -1,0 +1,16 @@
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+C:/Users/Ruby25/bin/ruby.exe -r ./siteconf20210210-3580-1vch3zs.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+generating cruby-i386-mingw32.def
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210210-3580-le2qxs/skiptrace/internal

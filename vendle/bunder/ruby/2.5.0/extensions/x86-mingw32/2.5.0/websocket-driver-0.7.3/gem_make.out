@@ -1,0 +1,16 @@
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+C:/Users/Ruby25/bin/ruby.exe -r ./siteconf20210210-3580-1r02w2t.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+generating websocket_mask-i386-mingw32.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: C:/Users/wsc17/app4/vendle/bunder/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20210210-3580-1j6a32p

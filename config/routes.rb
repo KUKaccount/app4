@@ -8,7 +8,4 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end
-  resources :courses do
-    post :download_source_code, on: :collection
-  end
 end
